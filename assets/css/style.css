@@ -194,3 +194,40 @@ footer {
     text-align: center;
     list-style-type: none;
 }
+
+/* third page price list */
+.price-heading {
+    font-size: 30px;
+    text-align: center;
+    color: #a58329;
+    margin: 30px;
+  }
+  
+  #price-container {
+    margin-bottom: 250px;
+  }
+  
+  #price-table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #price-table td, #price-table th {
+    border: 1px solid #black;
+    padding: 8px;
+  }
+  
+  #price-table tr:nth-child(even){background-color: #a58329;}
+  
+  #price-table tr:hover {background-color: #5800FF;} /* dblue */
+  
+  #price-table th {
+    font-size: 28px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: left;
+    background-color: #F0D9FF;/* bckg */
+    color: grey;
+  }
