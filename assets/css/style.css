@@ -9,13 +9,18 @@
 body {
   font-size: 18px;
   color: white;
-  background-color: #F0D9FF;
+  background-color: white;
+  /*background-color: #F0D9FF;*/
 }
 
 h2 h3 {
     letter-spacing: 4px;
     color: grey;
   }
+
+h1 {
+    font-size: 28px;;
+}
   
   p {
     color: #454a4f;
@@ -214,21 +219,23 @@ footer {
   }
   
   #price-table td, #price-table th {
-    border: 1px solid black;
     padding: 8px;
+    color: black;
+    height: 30px
   }
   
-  #price-table tr:nth-child(even){background-color: #a58329;}
+  #price-table tr:nth-child(even){background-color: #9baeec;}
+  #price-table tr:nth-child(uneven){background-color: #c4c3e7, #cf81be;}
   
-  #price-table tr:hover {background-color: #5800FF;}
+  #price-table tr:hover {background-color: #736bdd;}
   
   #price-table th {
     font-size: 28px;
     padding-top: 14px;
     padding-bottom: 14px;
     text-align: left;
-    background-color: #F0D9FF;/* bckg */
-    color: grey;
+    background-color: #8566da;/* bckg */
+    color: black;
   }
   
   #contact-info {
