@@ -62,3 +62,57 @@ h2 h3 {
     text-decoration: none;
     border-bottom: 3px solid #B983FF;
   }
+
+  .main-heading {
+    font-size: 28px;
+  }
+  
+  .intro-conatainer {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 200px;
+  }
+  
+  .left-intro {
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    background: linear-gradient(#7868E6,#B8B5FF);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 60px;
+    padding: 20px 10px 0 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+  }
+  
+  .right-intro {
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    background: linear-gradient(#7868E6,#B8B5FF);
+    text-align: center;
+    margin-left: 10px;
+    padding: 20px 10px 0 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+  }
+  
+  .booster-filler {
+    float: left;
+    display: inline;
+    width: 400px;
+    height: 500px;
+    margin-left: 200px;
+  }
+  /*color: #a58329; gold */
+  #botox-fillers, h1 {
+    font-size: 22px;
+    color: #a58329;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #botox-fillers, p {
+    font-size: 18px;
+  }
