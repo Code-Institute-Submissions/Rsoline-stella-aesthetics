@@ -139,7 +139,7 @@ h2 h3 {
 
 footer {
     height: 150px;
-    background-color: #5800FF;
+    background: linear-gradient(#5800FF,#B8B5FF);
   }
   
   .social {
@@ -258,7 +258,6 @@ footer {
     width: 80%;
     height: 400px;
     background-color: white;
-   /* background-color: #BC8CF2;*/
    box-shadow: 10px 10px 5px grey;
     border-radius: 20px;
     margin: 0 auto;
