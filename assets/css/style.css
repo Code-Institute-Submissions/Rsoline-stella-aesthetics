@@ -215,19 +215,19 @@ footer {
   }
   
   #price-table td, #price-table th {
-    border: 1px solid #black;
+    border: 1px solid black;
     padding: 8px;
   }
   
   #price-table tr:nth-child(even){background-color: #a58329;}
   
-  #price-table tr:hover {background-color: #5800FF;} /* dblue */
+  #price-table tr:hover {background-color: #5800FF;} 
   
   #price-table th {
     font-size: 28px;
     padding-top: 14px;
     padding-bottom: 14px;
     text-align: left;
-    background-color: #F0D9FF;/* bckg */
+    background-color: #F0D9FF;
     color: grey;
   }
