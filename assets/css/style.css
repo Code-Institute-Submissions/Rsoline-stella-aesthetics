@@ -157,3 +157,40 @@ footer {
     padding: 4%;
     color: #F3F1F5;
   }
+
+  /* second page - esthetics treatments */
+
+#treatments-heading {
+    text-align: center;
+    padding: 30px;
+    color: #a58329;
+}
+
+.heading-items {
+  color: grey;
+  text-align: center;
+}
+
+#treatments-img {
+    display: flex;
+    justify-content: center;
+}
+
+#treatments-items {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.type-items ul {
+    padding: 20px;
+    color: grey;
+    text-align: center;
+}
+
+.type-items li {
+    text-align: center;
+    list-style-type: none;
+}
